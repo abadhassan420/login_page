@@ -1,0 +1,175 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --primary-color: #273467;
+    --primary-light: #3d4bae;
+    --sjs-primary-backcolor: #3d4bae;
+    --primary: #3d4bae;
+    --primary-text-color: #000000;
+    --primary-light-base: #374c7b;
+    --dark-blue: #01003c;
+    --ground-bg: #f1f4f6;
+    --gradient-light: #273568;
+    --border-color: #ced4da;
+    --text-white: #fff;
+    --base-bg: white;
+    --success: #41bb8b;
+    --failed: #ff0000;
+    --pending: #2599e3;
+    --closed: #e26e2f;
+    --base-green-clr: #297c3a;
+    --info-bg: #085786;
+    --error-bg: #b3261e;
+    --warning-bg: #FDF3C9;
+    --base-blue: #1f80eb;
+    --text-light: #73797c;
+    --feild-border: #acb6be;
+    --disabled: #b2bed1;
+    --table-hover: #f2edff;
+    --regular-font-size: 13px;
+    --small-font: 12px;
+    --xsmall-font: 11px;
+    --text-xl: 22px;
+    --text-l: 20px;
+    --text-m: 17px;
+    --sub-heading: 15px;
+    --box-shadow: 3px 0px 7px rgba(0,0,0,0.12);
+    --box-shadow-left: -3px 0px 7px rgba(0,0,0,0.12);
+    --gradient: linear-gradient(-90deg, var(--gradient-light) 0%, var(--dark-blue) 100%);
+    --slate-bg: #ebf0f3;
+    --light-theme-color: #3e48b4;
+}
+.color-white{
+    color: var(--text-white) !important;
+}
+.text-primary{
+    color: var(--primary-color) !important;
+}
+.auth-header{
+    background: var(--gradient);
+    color: var(--text-white);
+}
+.main-content-wrapper{
+    min-height: calc(100vh - 224px);
+}
+.btn-outline-primary{
+    color:white !important;
+    border-color: white !important;
+    outline: none !important;
+    box-shadow: unset !important;
+    background-color: transparent !important;
+}
+.auth-header .navbar-brand:hover{
+    color: var(--text-white) !important;
+}
+.auth-wrapper .input-group-text{
+	border-radius: 0 !important;
+	border: 0 !important;
+	background-color: var(--primary-color) !important;
+    color: var(--text-white);
+}
+.auth-wrapper .form-control{
+	border: 0 !important;
+	border-bottom: 1px solid var(--border-color) !important;
+	border-radius: 0 !important;
+	padding-left: 10px;
+}
+.vector-img{
+    width: 60%;
+}
+@media (min-width: 768px) {
+    .login-container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .login-container {
+        max-width: 960px ;
+    }
+}
+@media (min-width: 1080px) {
+    .login-container {
+        max-width: 1080px ;
+    }
+}
+body{
+    background: url(/themes/Enhance/images/LoginBg.png) , no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+footer{
+    border-bottom: 15px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    background-color: white;
+}
+.footer-social-links li {
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+}
+.footer-social-links li a{
+    color: #000;
+}
+.footer-social-links p{
+    font-size: var(--small-font) !important;
+}
+.footer-social-links li a:hover, .footer-links li a:hover {
+    color: var(--pending);
+    transition: all ease-in-out .2s;
+}
+
+.footer-social-links li a i {
+    font-size: var(--text-l) !important;
+}
+
+.company-info p {
+    font-family: Roboto-medium, sans-serif;
+    font-size: var(--small-font) !important;
+}
+.footer-links{
+    margin: 0;
+    padding: 0 !important;
+    margin-bottom: 7px;
+}
+.footer-links li {
+    display: inline-block;
+    padding: 0px 6px 0px 10px;
+    border-left: 1px solid;
+}
+
+.footer-links li:first-child {
+    border-left: 0 !important;
+}
+.footer-links li a{
+    color: #000;
+}
+.footer-links li a, .copy-rights p {
+    font-family: Roboto-medium, sans-serif;
+    font-size: var(--small-font) !important;
+}
+.company-info{
+    text-align: left !important;
+}
+.btn-primary{
+    background: var(--gradient);
+    border: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.top-10{
+    top: 10px;
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+.auth-wrapper .form-control:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border-bottom-color: var(--primary-color) !important;
+}
+.form-label {
+    font-size: var(--small-font) !important;
+    font-weight: 500;
+}
